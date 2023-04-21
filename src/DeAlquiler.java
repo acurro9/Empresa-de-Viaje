@@ -73,4 +73,12 @@ public class DeAlquiler {
     public String getNombreBarco() {
         return nombreBarco;
     }
+
+    //AñadirHorario
+    public void añadirHorario(int hora, int minutos){
+        Viaje v = new Viaje(hora, minutos);
+    }
+    public void añadirAsiento (int nAsiento){
+        Viaje v = new Viaje(nAsiento);
+    }
 }
